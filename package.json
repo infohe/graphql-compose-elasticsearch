@@ -9,7 +9,7 @@
   "module": "mjs/index.mjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodkz/graphql-compose-elasticsearch.git"
+    "url": "https://github.com/infohe/graphql-compose-elasticsearch.git"
   },
   "keywords": [
     "graphql",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/nodkz/graphql-compose-elasticsearch/issues"
   },
-  "homepage": "https://github.com/nodkz/graphql-compose-elasticsearch#readme",
+  "homepage": "https://github.com/infohe/graphql-compose-elasticsearch#readme",
   "dependencies": {
     "dox": "^0.9.0"
   },
