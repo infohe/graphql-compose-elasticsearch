@@ -1,5 +1,5 @@
 {
-  "name": "graphql-compose-elasticsearch",
+  "name": "@infohe/graphql-compose-elasticsearch",
   "version": "0.0.0-semantically-released",
   "description": "Elastic search via GraphQL",
   "files": [
