@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/infohe/graphql-compose-elasticsearch#readme",
   "dependencies": {
-    "dox": "^0.9.0"
+    "dox": "^1.0.0",
+    "status": "^0.0.13"
   },
   "peerDependencies": {
     "elasticsearch": "^16.0.0 || ^15.0.0 || ^14.0.0 || ^13.0.0 || ^12.0.0",
@@ -47,13 +48,13 @@
     "express": "^4.17.1",
     "express-graphql": "0.12.0",
     "graphql": "15.6.1",
-    "graphql-compose": "9.0.3",
+    "graphql-compose": "^9.0.10",
     "jest": "27.2.4",
-    "nodemon": "2.0.13",
+    "nodemon": "^2.0.22",
     "npm-run-all": "^4.1.5",
     "prettier": "2.4.1",
     "rimraf": "3.0.2",
-    "semantic-release": "17.4.7",
+    "semantic-release": "^21.0.5",
     "ts-jest": "27.0.5",
     "ts-node": "10.2.1",
     "ts-node-dev": "1.1.8",
