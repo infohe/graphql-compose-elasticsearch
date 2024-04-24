@@ -199,7 +199,7 @@ export default function createSearchResolver<TSource, TContext>(
 
         const res: any = await searchFC.resolve(rp.source, args, rp.context, rp.info);
         if (typeof res.aggregations === 'undefined') {
-          res.aggregations = res.body.aggregations;
+          res.aggregations = res.body?.aggregations;
         }
         if (typeof res.took === 'undefined') {
           res.took = res.body.took;
