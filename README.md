@@ -1,6 +1,6 @@
 # graphql-compose-elasticsearch
 
-#Warning
+# Warning
 ## This might be an unstable version to experiment fixes and things from graphql-compose-elasticsearch
 
 [![npm](https://img.shields.io/npm/v/graphql-compose-elasticsearch.svg)](https://www.npmjs.com/package/graphql-compose-elasticsearch)
