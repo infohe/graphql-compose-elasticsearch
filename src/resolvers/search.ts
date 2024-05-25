@@ -39,7 +39,7 @@ export default function createSearchResolver<TSource, TContext>(
 
   const searchFC = parser.generateFieldConfig('search', {
     index: opts.elasticIndex,
-    type: opts.elasticType,
+    // type: opts.elasticType,
   });
 
   const argsConfigMap = {

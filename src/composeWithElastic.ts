@@ -16,7 +16,7 @@ import type { ElasticMappingT } from './mappingConverter';
 export type composeWithElasticOptsT<TContext> = {
   graphqlTypeName: string;
   elasticIndex: string;
-  elasticType: string;
+  elasticType?: string;
   elasticMapping: ElasticMappingT;
   elasticClient: any;
   pluralFields?: string[];
@@ -41,12 +41,6 @@ export function composeWithElastic<TContext>(
   if (!opts.elasticIndex || typeof opts.elasticIndex !== 'string') {
     throw new Error(
       'Third arg for Resolver search() should contain `elasticIndex` string property from your Elastic server.'
-    );
-  }
-
-  if (!opts.elasticType || typeof opts.elasticType !== 'string') {
-    throw new Error(
-      'Third arg for Resolver search() should contain `elasticType` string property from your Elastic server.'
     );
   }
 

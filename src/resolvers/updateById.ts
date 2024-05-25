@@ -27,7 +27,7 @@ export default function createUpdateByIdResolver<TSource, TContext>(
 
   const updateByIdFC = parser.generateFieldConfig('update', {
     index: opts.elasticIndex,
-    type: opts.elasticType,
+    // type: opts.elasticType,
     _source: true,
   });
 

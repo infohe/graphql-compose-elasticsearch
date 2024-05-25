@@ -28,7 +28,7 @@ export default function createFindByIdResolver<TSource, TContext>(
 
   const findByIdFC = parser.generateFieldConfig('get', {
     index: opts.elasticIndex,
-    type: opts.elasticType,
+    // type: opts.elasticType,
   });
 
   const type = getFindByIdOutputTC(opts);

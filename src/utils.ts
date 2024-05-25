@@ -15,7 +15,7 @@ export type CommonOpts<TContext = any> = {
   postfix?: string;
   pluralFields?: string[];
   elasticIndex: string;
-  elasticType: string;
+  elasticType?: string;
   elasticClient: any;
   fieldMap: FieldsMapByElasticType;
   sourceTC: ObjectTypeComposer<any, TContext>;
@@ -91,7 +91,7 @@ export function reorderKeys<T extends Record<any, any>>(obj: T, names: string[])
 
 export type fetchElasticMappingOptsT = {
   elasticIndex: string;
-  elasticType: string;
+  elasticType?: string;
   elasticMapping: ElasticMappingT;
   elasticClient: any;
 };
