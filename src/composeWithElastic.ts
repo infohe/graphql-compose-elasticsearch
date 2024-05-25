@@ -34,7 +34,7 @@ export function composeWithElastic<TContext>(
 
   if (!opts.elasticMapping || !opts.elasticMapping.properties) {
     throw new Error(
-      'You provide incorrect elasticMapping property. It should be an object `{ properties: {} }`'
+      'You provide incorrect elasticMapping property. It should be an object `{ properties: {} }`.'
     );
   }
 
